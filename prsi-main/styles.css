@@ -1,0 +1,61 @@
+/* body {
+     background-image: none; 
+} */
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-prsi-row-1,
+.flex-prsi-row-2,
+.flex-prsi-row-3 {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-prsi-row-2 div {
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-prsi-row-2 div img {
+    padding: 10px;
+    object-fit: contain;
+}
+
+.flex-prsi-row-3 div {
+    padding: 10px;
+}
+
+.flex-prsi-row-3 div button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+}
+
+#win-header {
+    color: green;
+}
+
+#loss-header {
+    color: red;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
